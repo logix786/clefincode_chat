@@ -238,7 +238,7 @@ frappe.ErpnextChat = class {
     const navbar_icon_html = `
         <li class='nav-item dropdown dropdown-notifications 
         dropdown-mobile chat-navbar-icon' title="Show Chats" >
-          <img title="Show Chats" src="/assets/clefincode_chat/icons/clefincode_chat.svg" width="25px" height="25px">
+          <img title="Show Chats" src="/assets/clefincode_chat/icons/conversation.svg" width="18px" height="25px">
         <span class="badge" id="chat-notification-count"></span>
         </li>
     `;

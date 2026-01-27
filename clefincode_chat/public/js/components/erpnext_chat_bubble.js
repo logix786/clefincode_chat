@@ -7,7 +7,7 @@ export default class ChatBubble {
 
   setup() {
     this.$chat_bubble = $(document.createElement("div"));
-    let chat_icon = `<img title="Start Chat" src="/assets/clefincode_chat/icons/clefincode_chat.svg" width="50px" height="50px">`;
+    let chat_icon = `<img title="Start Chat" src="/assets/clefincode_chat/icons/conversation.svg" width="50px" height="50px">`;
     this.open_title = this.parent.is_admin ? __("Show Chats") : chat_icon;
     this.closed_title = __("Close Chat");
 
